@@ -1,0 +1,6 @@
+# Environment Variables.
+HISTCONTROL=ignoreboth
+USER_CONFIG_ROOT=/mnt/Exclusive/Projects/Sys-Configs
+
+# Startups
+eval "$(starship init bash)"
