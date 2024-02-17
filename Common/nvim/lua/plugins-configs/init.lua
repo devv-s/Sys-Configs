@@ -9,4 +9,5 @@ shortcut.set(onNormalMode, '<leader>so', '<cmd>source ~/.config/nvim/init.lua<CR
 -- Plugins configurations and mapping --
 require("plugins-configs/telescope")
 require("plugins-configs/treesitter")
+require("plugins-configs/neo-tree")
 
