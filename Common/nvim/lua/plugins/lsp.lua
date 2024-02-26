@@ -26,6 +26,7 @@ return {
 		config = function()
 			local lsp = require("lspconfig")
       lsp.tsserver.setup({})
+      lsp.csharp_ls.setup({})
 		end
 	}
 }
