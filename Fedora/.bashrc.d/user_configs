@@ -1,6 +1,12 @@
 # Environment Variables.
 HISTCONTROL=ignoreboth
-USER_CONFIG_ROOT=/mnt/Exclusive/Projects/Sys-Configs
+export USER_CONFIG_ROOT=/mnt/Exclusive/Projects/Sys-Configs
+export ANDROID_HOME=/mnt/Exclusive/Installed/Android
+
+# Additional Path
+export PATH=$PATH:$ANDROID_HOME/cmdline-tools/tools/bin
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 # Startups
 eval "$(starship init bash)"
